@@ -1,6 +1,6 @@
 # Currency Converter App
 
-A simple React-based currency converter that uses [ExchangeRate API](https://api.exchangerate.host).
+A simple React-based currency converter.
 
 ## Features
 - Convert between multiple currencies
