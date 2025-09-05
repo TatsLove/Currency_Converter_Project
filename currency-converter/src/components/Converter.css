@@ -1,24 +1,38 @@
-.converter-container {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  display: inline-block;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+/* src/components/Converter.css */
+.converter {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 40px auto;
+  text-align: center;
 }
 
-.converter-inputs input, .converter-inputs select {
-  padding: 10px;
-  margin: 5px;
-  font-size: 16px;
+.converter-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-.convert-button {
-  margin-top: 20px;
+input, select, button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.convert-btn {
+  margin-top: 10px;
   padding: 10px 20px;
-  font-size: 16px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.result {
-  margin-top: 20px;
-  color: #333;
+.convert-btn:hover {
+  background: #005bb5;
 }
